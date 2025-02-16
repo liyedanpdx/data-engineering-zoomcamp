@@ -26,6 +26,7 @@ select
     -- yellow cabs are always street-hail
     1 as trip_type,
     
+    
     -- payment info
     cast(fare_amount as numeric) as fare_amount,
     cast(extra as numeric) as extra,
